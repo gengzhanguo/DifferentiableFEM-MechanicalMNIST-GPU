@@ -1,6 +1,6 @@
 # 2D Nonlinear Finite Element Method (FEM) for Mechanical MNIST on GPU
 
-This project implements a 2D nonlinear hyperelasticity solver using a fully differentiable Finite Element Method (FEM) in PyTorch and scikit-fem, with GPU acceleration. It is designed to simulate the mechanical response of heterogeneous materials, specifically tailored for analyzing Mechanical MNIST patterns under various loading conditions.
+This project implements a 2D nonlinear hyperelasticity solver using a fully differentiable Finite Element Method (FEM) in PyTorch and scikit-fem, with GPU acceleration. It is designed to simulate the mechanical response of heterogeneous materials, specifically tailored for analyzing Mechanical MNIST patterns under various loading conditions, which is also the ground basis for an option in AI powering up.
 
 ## Features
 
@@ -145,6 +145,8 @@ Ensure that `U_x_reference_{index}.txt`, `U_y_reference_{index}.txt`, `phi_refer
 
 After running the `main.py` script, the following plots will be generated and saved into the `results/` directory within the project's root folder. These plots compare the FEM simulation results directly against the reference data from the Mechanical MNIST dataset, demonstrating the consistency and accuracy of the implemented solver.
 
+Note that in this implementation I just used around 1000 nodes for interpolation, compared with more than 30K nodes in the origin FEniCS code.
+
 ### Material Property Distribution
 ![Material Comparison](results/fig1_material_comparison.png)
 
@@ -187,3 +189,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## Reference
+The paper and implimentation from Emma
+
+- https://doi.org/10.1016/j.eml.2020.100659
+
+- https://github.com/elejeune11/Mechanical-MNIST.git
+
+- https://open.bu.edu/handle/2144/39371
