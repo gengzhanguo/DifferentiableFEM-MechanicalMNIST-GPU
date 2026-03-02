@@ -86,7 +86,7 @@ This project requires the following Python packages. They can be installed using
 
 1.  **Navigate to the project directory:**
     ```bash
-    cd ~/openclaw_projects/mechanical_mnist_fem_gpu
+    cd ~/path/to/your/folder
     ```
 
 2.  **(Optional) Create and activate a Python virtual environment:**
