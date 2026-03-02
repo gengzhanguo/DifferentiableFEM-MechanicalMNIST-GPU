@@ -1,6 +1,6 @@
 # 2D Nonlinear Finite Element Method (FEM) for Mechanical MNIST on GPU
 
-This project implements a 2D nonlinear hyperelasticity solver using a fully differentiable Finite Element Method (FEM) in PyTorch, with GPU acceleration. It is designed to simulate the mechanical response of heterogeneous materials, specifically tailored for analyzing Mechanical MNIST patterns under various loading conditions.
+This project implements a 2D nonlinear hyperelasticity solver using a fully differentiable Finite Element Method (FEM) in PyTorch and scikit-fem, with GPU acceleration. It is designed to simulate the mechanical response of heterogeneous materials, specifically tailored for analyzing Mechanical MNIST patterns under various loading conditions.
 
 ## Features
 
