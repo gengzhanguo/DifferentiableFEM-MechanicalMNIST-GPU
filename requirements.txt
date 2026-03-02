@@ -1,0 +1,6 @@
+torch
+numpy
+skfem
+matplotlib
+scipy
+pygmsh
